@@ -1,12 +1,51 @@
 @media screen and (max-width:767px) {
-    
-    .nav-menu {
+
+    ul {
         display: none;
     }
 
     .cadre-c {
         gap: 0%;
         max-width: 22%;
+    }
+
+    .texte-pizza {
+        font-size: 11px;
+    }
+
+    .cadre-c {
+        flex-basis: 47%;
+        max-width: 24%;
+    }
+
+    .pizza {
+        flex-wrap: nowrap;
+    }
+
+    .pizza img{
+        width: 185px;
+        height: 180px;
+    }
+
+    hr {
+        width: 65%;
+        margin-left: 15%;
+    }
+
+    .prix {
+        margin-top: -57px;
+    }
+
+    .prix {
+        text-align: center;
+        margin-top: -52px;
+        margin-left: 90px;
+    }
+
+    button {
+        width: 130px;
+        height: 28px;
+        margin-bottom: -5px;
     }
 
     footer p{
