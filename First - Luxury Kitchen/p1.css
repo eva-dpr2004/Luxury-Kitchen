@@ -146,7 +146,6 @@ html,body {
         flex-grow: 1;
         flex-basis: 28%;
         flex-shrink: 0;
-        max-width: 25%;
     }
     
     .pizza{
@@ -159,7 +158,7 @@ html,body {
 }
     
     .pizza img{
-        width: 100%;
+        width: 420px;
         height: 300px;
         
     }
@@ -185,7 +184,16 @@ html,body {
         margin-bottom: 20px;
       }
 
-      
+
+      /********** CARD 2 *********/
+
+
+    .image-pizza2{
+        width: 350px;
+        height: 280px;
+    }
+
+
       /********* TITRES **********/
 
 

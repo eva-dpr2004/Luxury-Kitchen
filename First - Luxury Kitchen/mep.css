@@ -20,6 +20,7 @@ html,body {
   }
 
 
+
     /*********** NAVBAR *********/
 
 
@@ -84,8 +85,8 @@ html,body {
       padding-left: 15px;
   }
 
-   
-    /************* LOGO ***********/
+
+  /************* LOGO ***********/
 
 
   .logo{
@@ -112,14 +113,15 @@ html,body {
     .cadre-c {
         border-radius: 5px;
         overflow: hidden;
+        gap: 12%;
         display: flex;
         flex-direction: column;
         flex-grow: 1;
         flex-basis: 28%;
         flex-shrink: 0;
-        max-width: 23%;
-      }
-    
+        max-width: 22%;
+    }
+
     .pizza{
         display: flex;
         flex-direction: row;
@@ -130,7 +132,7 @@ html,body {
     }
     
     .pizza img{
-        width: 100%;
+        width: 440px;
         height: 380px;
         
     }
@@ -162,7 +164,7 @@ html,body {
     }
 
 
-    /********* FOOTER **********/
+      /********* FOOTER **********/
 
 
       hr{
