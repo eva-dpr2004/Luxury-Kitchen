@@ -1,0 +1,237 @@
+@media screen and (max-width:769px) {
+
+    nav ul {
+        display: none;
+    }
+
+    .logo2{
+        display: none;
+    }
+
+    .menuItem {
+        display: block;
+        margin: 2rem 4rem;
+        font-size: 1.8rem;
+        color: white;
+        text-decoration: none;
+      }
+      
+      .menuItem:hover {
+        text-decoration: underline;
+      }
+      
+      .hamburger {
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        border: black solid 1px;
+        background: white;
+        cursor: pointer;
+      }
+      
+      .closeIcon {
+        display: none;
+      }
+      
+      .menu {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: black;
+        color: white;
+        list-style: none;
+        padding-top: 4rem;
+      }
+      
+      .showMenu {
+        transform: translateY(0);
+      }
+
+/*sdsfsdghdhhhh*/
+
+    .cadre-c {
+        gap: 0%;
+        max-width: 22%;
+    }
+
+    .texte-pizza {
+        font-size: 11px;
+    }
+
+    .cadre-c {
+        flex-basis: 47%;
+        max-width: 24%;
+    }
+
+    .pizza {
+        flex-wrap: nowrap;
+    }
+
+    .pizza img{
+        width: 185px;
+        height: 180px;
+    }
+
+    hr {
+        width: 65%;
+        margin-left: 15%;
+    }
+
+    .prix {
+        margin-top: -57px;
+    }
+
+    .prix {
+        text-align: center;
+        margin-top: -52px;
+        margin-left: 90px;
+    }
+
+    button {
+        width: 130px;
+        height: 28px;
+        margin-bottom: -5px;
+    }
+
+    footer p{
+        font-size: 8px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    h4 {
+        margin-left: 3%;
+        font-size: 14px;
+    }
+
+    .inthefooter img{
+        width: 10%;
+        height: 10%;
+        margin-right: 10px;
+    }
+
+    .app-footer img{
+        width: 100px;
+    }
+
+    .pay-footer img{
+        width: 45px;
+        height: 25px;
+    }
+
+    .pay-footer {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .join-footer {
+        margin-right: 2%;
+    }
+
+    .join-footer img{
+        width: 18%;
+        align-items: center;
+    }
+
+    .logo-footer {
+        margin-top: 20%;
+    }
+
+    .fleche img{
+        width: 20%;
+        margin-left: -5%;
+    }
+}
+
+/* Ipad Mini to ipad */
+@media screen and (min-width:768px) and (max-width:991px){
+ 
+}
+
+@media screen and (max-width:390px){
+
+    main {
+      margin-bottom: 25px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    hr {
+      width: 65%;
+      margin-left: 15%;
+      margin-top: -1%;
+    }
+
+    h3 {
+      font-size: 8px;
+    }
+
+    button {
+      width: 110px;
+      height: 25px;
+      margin-bottom: 5px;
+      font-size: 10px;
+    }
+
+    .pizza {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .cadre-c {
+      flex-basis: 47%;
+      max-width: 45%;
+      gap: 0px;
+    }
+
+    .pizza img {
+      width: 100%;
+      height: 180px;
+    }
+
+    .texte-pizza {
+      font-size: 9px;
+    }
+
+    .app-footer img {
+      width: 55px;
+    }
+
+    h4 {
+      font-size: 8px;
+      margin-top: 20%;
+    }
+
+    footer p {
+      font-size: 7px;
+      max-width: 55%;
+    }
+
+    .pay-footer img {
+      width: 35px;
+      height: 18px;
+    }
+
+    .icon-footer {
+      margin-top: 0%;
+    }
+}
+
+@media screen and (max-width:1440px){
+
+  .texte-pizza {
+      background-color: #595959;
+      font-size: 16px;
+      padding: 28px;
+    }
+  
+  }
